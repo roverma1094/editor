@@ -19,7 +19,7 @@ public class Article implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = -8350967434441965013L;
-	
+	/******************Columns**************************************/
 	@Column(name="header")
 	String header;
 	
@@ -83,8 +83,4 @@ public class Article implements Serializable{
 		this.publishDate = publishDate;
 	}
 	
-	/******************Columns**************************************/
-	
-	
-
 }
